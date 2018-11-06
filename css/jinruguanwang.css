@@ -1,0 +1,929 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "微软雅黑","宋体",Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+.tab_ul li.tu01.on {
+    background-position: 0 -107px;
+}
+.tab_ul li.tu02.on {
+    background-position: -113px -107px;
+}
+.tab_ul li.tu03.on {
+    background-position: -226px -107px;
+}
+.wanmei_top {
+    display: block !important;
+    width: 100%;
+    height: 41px;
+    background: #fbfbfb url(../img/pi.jpg) repeat-x left top;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 200000;
+}
+.wm_bottom_warp a:hover, .wm_bottom_items a:hover {
+    color: #a2deed !important;
+}
+
+.wanmei_nav {
+    width: 1002px;
+    height: 37px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    margin: 0 auto;
+    /*background: #fbfbfb url(../img/bg.jpg) repeat-x left top;*/
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 20000;
+    font-family: "微软雅黑","宋体";
+    font-size: 12px;
+}
+.wanmei_logo {
+    width: 150px;
+    height: 37px;
+    position: absolute;
+    top: 1px;
+    left: 25px;
+    background: url(../img/wanmei_top.png) no-repeat left -180px;
+    z-index: 29000;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+.wanmei_logo_link {
+    display: block;
+    width: 150px;
+    height: 37px;
+    text-indent: -10000px;
+    overflow: hidden;
+    background: url(../img/none.gif);
+}
+a {
+    font-family: "微软雅黑","宋体",Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+.wanmei_msg {
+    width: 450px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 11px;
+    right: 25px;
+    text-align: right;
+    z-index: 29000;
+}
+a.wanmei_msg_game {
+    display: inline-block;
+    float: right;
+    width: 95px;
+    height: 20px;
+    line-height: 20px;
+    color: #444444;
+    font-size: 12px;
+    text-decoration: none;
+    background: url(../img/wanmei_top.gif) no-repeat left top;
+    text-align: left;
+    text-indent: 9px;
+    margin-left: 10px;
+}
+a.wanmei_msg_link01, a.wanmei_msg_link02, a.wanmei_msg_link03 {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    color: #444444;
+    font-size: 12px;
+    text-decoration: none;
+    float: right;
+}
+.wanmei_msg_xian {
+    display: inline-block;
+    width: 16px;
+    text-align: center;
+    color: #a4a3a3;
+    font-size: 8px;
+    color: #a4a3a3;
+    float: right;
+}
+.wanmei_clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.wanmei_games {
+    width: 869px;
+    background: #f8f8f8 url(../img/wanmei_games_bg.jpg) no-repeat left top;
+    background-color: #f8f8f8;
+    position: absolute;
+    top: 38px;
+    right: 25px;
+    z-index: 300000;
+    border: solid 1px #cfcfcf;
+    border-top: none;
+    display: none;
+}
+.wanmei_games_l{
+	width: 713px;
+	border-right: solid 1px #cfcfcf;
+    float: left;
+    padding-top: 18px;
+}
+.wanmei_games_hot {
+    height: 72px;
+}
+.wanmei_games_hot_li01 {
+    width: 60px;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #383838;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    height: 40px;
+}
+.wanmei_games_hot_list {
+    width: 510px;
+    float: left;
+}
+.wanmei_clearfix {
+    /*display: block;*/
+}
+.wanmei_games_hot_list li {
+    width: 70px;
+    float: left;
+    padding-left: 14px;
+    padding-bottom: 10px;
+}
+.wanmei_games_hot_list li a {
+    display: block;
+    height: 38px;
+    width: 70px;
+}
+.wanmei_games_hot_list li img {
+    width: 70px;
+    height: 38px;
+}
+fieldset, img {
+    border: 0;
+}
+.wanmei_game_box{
+	border-top: solid 1px #cfcfcf;
+
+}
+.wanmei_game_khd {
+    width: 356px;
+    border-right: solid 1px #cfcfcf;
+}
+.wanmei_game_item {
+    float: left;
+    height: 231px;
+}
+.wanmei_game_box_head {
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bolder;
+}
+.wanmei_game_box_list02 {
+    border-right: solid 1px #cfcfcf;
+    float: left;
+}
+.wanmei_game_box_list {
+    width: 118px;
+    border-top: solid 1px #cfcfcf;
+}
+.wanmei_game_box_list li a.wanmei_new {
+    background: url(../img/wanmei_top.gif) no-repeat 85px -112px;
+}
+.wanmei_game_box_list li a {
+    display: block;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    color: #383838;
+    text-decoration: none;
+}
+.wanmei_game_box_list li a.wanmei_hot {
+    background: url(../img/wanmei_top.gif) no-repeat 85px -52px;
+}
+.wanmei_game_box_list03 {
+    float: left;
+}
+.wanmei_game_box_list li {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 18px;
+    width: 100px;
+    overflow: hidden;
+    border-bottom: solid 1px #cfcfcf;
+    background: url(../img/wanmei_top.gif) no-repeat 10px -228px;
+}
+.wanmei_game_wy {
+    width: 118px;
+    border-right: solid 1px #cfcfcf;
+}
+.wanmei_game_dj {
+    width: 118px;
+    border-right: solid 1px #cfcfcf;
+}
+.wanmei_games_r {
+    width: 155px;
+    float: right;
+    padding-top: 7px;
+}
+.wanmei_games_r .wmpassport {
+    width: 134px;
+    height: 62px;
+    margin-left: 11px;
+    margin-top: 8px;
+    display: block;
+}
+.wanmei_games_r .wmpassport img {
+    width: 134px;
+    height: 62px;
+    display: block;
+}
+.wanmei_seaver {
+    width: 140px;
+    padding-left: 3px;
+}
+.wanmei_seaver li {
+    width: 62px;
+    height: 62px;
+    padding: 8px 0px 0px 8px;
+    float: left;
+}
+.wanmei_seaver li.wanmei_btn02 a {
+    background-position: -124px top;
+}
+.wanmei_seaver li a {
+    display: block;
+    width: 62px;
+    height: 62px;
+    text-indent: -10000px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(../img/wanmei_fuwu.gif);
+}
+.wanmei_seaver li.wanmei_btn03 a {
+    background-position: left -62px;
+}
+.wanmei_seaver li.wanmei_btn04 a {
+    background-position: -124px -62px;
+}
+.wanmei_seaver li.wanmei_btn06 a {
+    background-position: -124px -124px;
+}
+.wanmei_seaver li.wanmei_btn08 a {
+    background-position: -124px -186px;
+}
+.wanmei_seaver li.wanmei_btn01 a:hover {
+    background-position: -62px top;
+}
+.wanmei_seaver li.wanmei_btn02 a:hover {
+    background-position: -186px top;
+}
+.wanmei_seaver li.wanmei_btn03 a:hover {
+    background-position: -62px -62px;
+}
+.wanmei_seaver li.wanmei_btn04 a:hover {
+    background-position: -186px -62px;
+}
+.wanmei_seaver li.wanmei_btn06 a:hover {
+    background-position: -186px -124px;
+}
+.wanmei_seaver li.wanmei_btn08 a:hover {
+    background-position: -186px -186px;
+}
+.wanmei_game_box_list li a:hover {
+    text-decoration: underline;
+    color: #c20911;
+}
+
+a.wanmei_msg_link01:hover, a.wanmei_msg_link02:hover, a.wanmei_msg_link03:hover {
+    text-decoration: underline;
+}
+.wanmei_ggbox_small img {
+    height: 37px;
+}
+.bg {
+    background: url(../img/bgg.jpg) center top no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+.rel1002 {
+    position: relative;
+    width: 1200px;
+    height: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.wm-public {
+    z-index: 1999;
+}
+.wm_public_zhuxian_logo_lk {
+    position: absolute;
+    z-index: 99999;
+    left: 0px;
+    top: 0px;
+    width: 170px;
+    height: 148px;
+}
+.wm_public_zhuxian_logo_bg {
+    position: absolute;
+    z-index: 99998;
+    left: 0px;
+    top: 0px;
+    width: 170px;
+    height: 148px;
+    background: url(../img/zhuxian2.png);
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.games.wanmei.com/public/images/logo/zhuxian/zhuxian2.png',sizingMethod='scale');
+}
+.link {
+    position: absolute;
+    text-indent: -9999px;
+    background: url(about:blank);
+}
+.video_box {
+    position: absolute;
+    width: 174px;
+    height: 174px;
+    left: 512px;
+    top: 146px;
+    cursor: pointer;
+}
+.btn_video {
+    left: 50%;
+    top: 240px;
+    margin-left: -112px;
+    width: 224px;
+    height: 125px;
+}
+.video_shade {
+    position: absolute;
+    width: 174px;
+    height: 55px;
+    left: 0;
+    top: 0;
+    z-index: 55;
+}
+.top-btn-web {
+    left: 165px;
+    background: url(../img/pc-btn-home.png) no-repeat center;
+}
+.top-btn {
+    position: absolute;
+    width: 110px;
+    height: 35px;
+    top: 38px;
+    text-indent: -9999px;
+}
+.top-btn-mb {
+    left: 282px;
+    background: url(../img/app-btn-home.png) no-repeat center;
+}
+.tips {
+    position: absolute;
+    height: 29px;
+    top: 590px;
+    left: 0;
+    background: #fff url(../img/tips.png) no-repeat;
+    padding: 0 10px 0 70px;
+    color: #f34346;
+    font: normal 14px/29px "微软雅黑";
+}
+.tips a {
+    color: #515151;
+    padding: 0 5px;
+}
+.boxTop {
+    width: 1200px;
+    height: 399px;
+    background: url(../img/regBg.png) no-repeat;
+    position: absolute;
+    left: 0;
+    top: 629px;
+}
+.lb1 {
+    width: 512px;
+    height: 379px;
+    padding-top: 20px;
+    float: left;
+    position: relative;
+}
+.lbBtns {
+    position: absolute;
+    left: 95px;
+    bottom: 40px;
+    z-index: 11;
+}
+.lbBtns a {
+    background: url(../img/reg1-btn.png) no-repeat center;
+    width: 322px;
+    height: 42px;
+    display: block;
+    font: normal 16px/42px "微软雅黑";
+    text-align: center;
+    color: #ffffff;
+}
+.lb1 .prev {
+    left: 22px;
+    background: url(../img/left.png) no-repeat;
+}
+.lb1 .lbClick {
+    position: absolute;
+    top: 160px;
+    display: block;
+    width: 32px;
+    height: 59px;
+    cursor: pointer;
+    z-index: 2;
+}
+.lb1 .next {
+    right: 22px;
+    background: url(../img/right.png) no-repeat;
+}
+.bd ul li img {
+    display: block;
+    margin: 0 auto;
+    width: 464px;
+}
+.regBtn {
+    width: 320px;
+    height: 399px;
+    float: left;
+    position: relative;
+    margin-left: 31px;
+}
+#fastreg_box {
+    width: 338px;
+    left: -7px;
+}
+#fastreg_box {
+    width: 285px;
+    position: absolute;
+    left: 18px;
+    top: 66px;
+}
+.qreg-main {
+    color: #000;
+}
+.qreg-main, .qreg-input {
+    font-size: 14px;
+}
+.qreg-main {
+    padding: 30px 30px 20px;
+    line-height: 1.5;
+    color: #373737;
+}
+.qreg-core, .qreg-bind{
+	position: relative;
+}
+.qreg-field{
+	position: relative;
+	margin-bottom: 8px;
+}
+.qreg-field-account .qreg-input-wrap {
+    background-image: url(../img/icon_account.png);
+}
+.qreg-input-wrap{
+	position: relative;
+    background-color: #fff;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    padding-left: 46px;
+    border: 1px solid #d5d5d5;
+}
+.qreg-input{
+	border: none;
+	width: 100%;
+    height: 38px;
+    outline: none;
+    box-sizing: border-box;
+    line-height: 38px;
+}
+.qreg-field-password .qreg-input-wrap{
+	background-image: url(../img/icon_password.png);
+
+}
+.qreg_full_tip {
+    margin: 50px 0 8px;
+    font-size: 12px;
+    color: #f00;
+}
+.qreg-agree {
+    font-size: 12px;
+    margin: 0 0 8px;
+}
+.qreg-agree, .qreg-agree a, .qreg-btn-smscaptcha{
+	color: #000;
+}
+.qreg-agree a{
+	text-decoration: underline;
+
+}
+.qreg-btns a {
+    background: url(../img/reg1-btn.png) no-repeat center !important;
+}
+.qreg-btn-reg, .qreg-btn-bind, .qreg-btn-tobind, .qreg-btn-tobind_email, .qreg-btn-smscaptcha-submit, .qreg-btn-phone-submit, .qreg-btn-back {
+    background: #282828;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+.downBox {
+    width: 308px;
+    height: 99px;
+    float: right;
+    position: relative;
+}
+.downBox a {
+    display: block;
+    text-align: center;
+    position: absolute;
+}
+.down_pc {
+    left: 50%;
+    top: 95px;
+    margin-left: -91px;
+    width: 182px;
+    height: 52px;
+    font: normal 18px/52px "微软雅黑";
+    color: #fff;
+    background: url(../img/btn-down.png) no-repeat center top;
+}
+.btn-enter {
+    left: 50%;
+    top: 155px;
+    margin-left: -91px;
+    width: 182px;
+    height: 52px;
+    font: normal 18px/52px "微软雅黑";
+    color: #fff;
+    background: url(../img/btn-enter.png) no-repeat center top;
+}
+.btn_video {
+    left: 50%;
+    top: 240px;
+    margin-left: -112px;
+    width: 224px;
+    height: 125px;
+}
+.play {
+    background: url(../img/play-img.png) no-repeat center top;
+    width: 100%;
+    height: 493px;
+}
+.play_box {
+    width: 1200px;
+    margin: 25px auto;
+    height: 459px;
+    position: relative;
+}
+.play_box a.btn1 {
+    left: 62px;
+}
+.play_box a {
+    width: 105px;
+    height: 22px;
+    position: absolute;
+    top: 349px;
+}
+.play_box a.btn2 {
+    left: 303px;
+}
+.play_box a.btn3 {
+    left: 547px;
+}
+.play_box a.btn4 {
+    left: 782px;
+}
+.play_box a.btn5 {
+    left: 1014px;
+}
+.roles_box {
+    overflow: hidden;
+    width: 100%;
+    height: 865px;
+    overflow: hidden;
+    position: relative;
+    background: url(../img/roles-box-bg.jpg) no-repeat center;
+}
+.tab_ul {
+    position: absolute;
+    width: 563px;
+    height: 130px;
+    right: 50%;
+    bottom: 160px;
+    margin-right: -600px;
+    z-index: 11;
+}
+.tab_ul li.tu01 {
+    background-position: 0 0;
+    left: 58px;
+}
+.tab_ul li {
+    width: 106px;
+    height: 107px;
+    text-indent: -9999px;
+    position: absolute;
+    background: url(../img/role-btn.png) no-repeat center;
+    top: 0;
+    cursor: pointer;
+}
+.tab_ul li.tu02 {
+    background-position: -113px 0;
+    left: 168px;
+}
+.tab_ul li.tu03 {
+    background-position: -226px 0;
+    left: 278px;
+}
+.tab_ul li.tu04.on {
+    background-position: -339px -107px;
+}
+.tab_ul li.tu04 {
+    background-position: -339px 0;
+    left: 388px;
+}
+.role_cont {
+    display: none;
+    width: 100%;
+    height: 865px;
+    position: relative;
+    z-index: 10;
+}
+.tab_zu {
+    position: absolute;
+    width: 220px;
+    height: 337px;
+    right: 50%;
+    bottom: 130px;
+    margin-right: -313px;
+    z-index: 21;
+}
+.tab_ren li.r1 {
+    background: url(../img/r1h.png) no-repeat;
+    left: 0;
+    top: 61px;
+}
+.tab_zu li.on {
+    opacity: 1;
+}
+.tab_zu li {
+    width: 106px;
+    height: 106px;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0.5;
+    text-indent: -9999px;
+}
+.tab_ren li.r2 {
+    background: url(../img/r2h.png) no-repeat;
+    left: 0;
+    top: 293px;
+}
+.tab_ren li.r3 {
+    background: url(../img/r3h.png) no-repeat;
+    left: -56px;
+    top: 120px;
+}
+.tab_ren li.r4 {
+    background: url(../img/r4h.png) no-repeat;
+    left: 57px;
+    top: 118px;
+}
+.tab_ren li.r5 {
+    background: url(../img/r5h.png) no-repeat;
+    left: -56px;
+    top: 235px;
+}
+.tab_ren li.r6 {
+    background: url(../img/r6h.png) no-repeat;
+    left: 58px;
+    top: 237px;
+}
+.role_bg_fenxiang {
+    background: url(../img/role_fenxiang.png) 75px top no-repeat;
+}
+.cont_ren, .cont_shen, .cont_tian, .cont_cang {
+    display: none;
+    width: 100%;
+    height: 865px;
+}
+.role_intro {
+    width: 380px;
+    color: #545454;
+    position: absolute;
+    right: 50%;
+    margin-right: -590px;
+    top: 90px;
+    z-index: 220;
+}
+.role_name {
+    padding: 30px 0;
+    font: bold 48px "微软雅黑";
+    color: #413e3e;
+}
+.role_name span {
+    color: #948649;
+    font-size: 25px;
+    font-weight: normal;
+    padding-left: 10px;
+}
+.role_name {
+    padding: 30px 0;
+    font: bold 48px "微软雅黑";
+    color: #413e3e;
+}
+.info_p1 {
+    padding-bottom: 30px;
+    font: normal 18px "微软雅黑";
+    line-height: 30px;
+    width: 400px;
+}
+.space {
+    margin-left: 36px;
+}
+.info_p2 {
+    font: normal 18px "微软雅黑";
+    line-height: 30px;
+}
+.role_more {
+    display: block;
+    width: 113px;
+    height: 21px;
+    margin-top: 30px;
+    background: url(../img/role_more-bg.png) no-repeat center;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 20px;
+}
+.role_more:hover {
+    background-image: url(../img/role_more-bg-hov.png);
+}
+.tab_shen li.s1 {
+    background: url(../img/s1h.png) no-repeat;
+    left: 112px;
+    top: 57px;
+}
+.tab_zu li.on {
+    opacity: 1;
+}
+.tab_shen li.s2 {
+    background: url(../img/s2h.png) no-repeat;
+    left: 112px;
+    top: 296px;
+}
+.tab_shen li.s3 {
+    background: url(../img/s3h.png) no-repeat;
+    left: 57px;
+    top: 118px;
+}
+.tab_shen li.s4 {
+    background: url(../img/s4h.png) no-repeat;
+    left: 167px;
+    top: 118px;
+}
+.tab_shen li.s5 {
+    background: url(../img/s5h.png) no-repeat;
+    left: 57px;
+    top: 237px;
+}
+.tab_shen li.s6 {
+    background: url(../img/s6h.png) no-repeat;
+    left: 167px;
+    top: 237px;
+}
+.tab_media {
+    position: absolute;
+    width: 100%;
+    height: 865px;
+    left: 0;
+    top: 0;
+    z-index: 7;
+}
+#item1, #item2, #item3 {
+    width: 1920px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+.role_bg_chenhuang {
+    background: url(../img/role_chenhuang.png) 360px top no-repeat;
+}
+.tab_tian li.t6 {
+    background: url(../img/t6h.png) no-repeat;
+    left: 222px;
+    top: 296px;
+}
+.tab_zu li.on {
+    opacity: 1;
+}
+.tab_tian li.t1 {
+    background: url(../img/t1h.png) no-repeat;
+    left: 167px;
+    top: 118px;
+}
+.tab_tian li.t2 {
+    background: url(../img/t2h.png) no-repeat;
+    left: 277px;
+    top: 237px;
+}
+.tab_tian li.t3 {
+    background: url(../img/t3h.png) no-repeat;
+    left: 167px;
+    top: 237px;
+}
+.tab_tian li.t4 {
+    background: url(../img/t4h.png) no-repeat;
+    left: 277px;
+    top: 118px;
+}
+.tab_tian li.t5 {
+    background: url(../img/t5h.png) no-repeat;
+    left: 222px;
+    top: 57px;
+}
+.role_bg_huaying {
+    background: url(../img/huaying.png) 140px top no-repeat;
+}
+.tab_cang li.z1 {
+    background: url(../img/c1h.png) no-repeat;
+    left: 390px;
+    top: 118px;
+}
+.role_bg_zusuang {
+    background: url(../img/role_zusuang.png) 230px bottom no-repeat;
+}
+.role_tit {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -90px;
+    z-index: 22;
+}
+#wm_bottom_ {
+    height: 95px;
+    width: 100%;
+}
+.wm_bottom_bg {
+    background-color: #2a2f44;
+    min-width: 1002px;
+    width: 100%;
+}
+.wm_bottom_main {
+    color: #93afd2;
+    font-size: 12px;
+    min-width: 1002px;
+    width: 100%;
+}
+#wm_bottom_beian {
+    color: #93afd2;
+    text-decoration: none;
+    border: 1px solid #303754 !important;
+}
+.wm_bottom_warp a:visited, .wm_bottom_items a:visited {
+    color: #93afd2;
+    text-decoration: none;
+}
+.wm_bottom_items a:link {
+    color: #93afd2;
+    text-decoration: none;
+    /*margin-right: 8px;*/
+}
+.wm_bottom_warp a:link {
+    color: #93afd2;
+    text-decoration: none;
+    font-family: Verdana,\5b8b\4f53,sans-serif;
+}
+.wm_bottom_copyright {
+    color: #93afd2;
+    font-family: Verdana, Geneva, sans-serif,\5b8b\4f53;
+}
+
+
+
+
+
+
+
+
+

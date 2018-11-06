@@ -1,0 +1,458 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "微软雅黑","宋体",Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.wanmei_top {
+    display: block !important;
+    width: 100%;
+    height: 41px;
+    background: #fbfbfb url(../img/pi.jpg) repeat-x left top;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 200000;
+}
+.wanmei_nav {
+    width: 1002px;
+    height: 37px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    margin: 0 auto;
+    /*background: #fbfbfb url(../img/bg.jpg) repeat-x left top;*/
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 20000;
+    font-family: "微软雅黑","宋体";
+    font-size: 12px;
+}
+.wanmei_logo {
+    width: 150px;
+    height: 37px;
+    position: absolute;
+    top: 1px;
+    left: 25px;
+    background: url(../img/wanmei_top.png) no-repeat left -180px;
+    z-index: 29000;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+.wanmei_logo_link {
+    display: block;
+    width: 150px;
+    height: 37px;
+    text-indent: -10000px;
+    overflow: hidden;
+    background: url(../img/none.gif);
+}
+a {
+    font-family: "微软雅黑","宋体",Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+.wanmei_msg {
+    width: 450px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 11px;
+    right: 25px;
+    text-align: right;
+    z-index: 29000;
+}
+a.wanmei_msg_game {
+    display: inline-block;
+    float: right;
+    width: 95px;
+    height: 20px;
+    line-height: 20px;
+    color: #444444;
+    font-size: 12px;
+    text-decoration: none;
+    background: url(../img/wanmei_top.gif) no-repeat left top;
+    text-align: left;
+    text-indent: 9px;
+    margin-left: 10px;
+}
+a.wanmei_msg_link01, a.wanmei_msg_link02, a.wanmei_msg_link03 {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    color: #444444;
+    font-size: 12px;
+    text-decoration: none;
+    float: right;
+}
+.wanmei_msg_xian {
+    display: inline-block;
+    width: 16px;
+    text-align: center;
+    color: #a4a3a3;
+    font-size: 8px;
+    color: #a4a3a3;
+    float: right;
+}
+.wanmei_clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.wanmei_games {
+    width: 869px;
+    background: #f8f8f8 url(../img/wanmei_games_bg.jpg) no-repeat left top;
+    background-color: #f8f8f8;
+    position: absolute;
+    top: 38px;
+    right: 25px;
+    z-index: 300000;
+    border: solid 1px #cfcfcf;
+    border-top: none;
+    display: none;
+}
+.wanmei_games_l{
+	width: 713px;
+	border-right: solid 1px #cfcfcf;
+    float: left;
+    padding-top: 18px;
+}
+.wanmei_games_hot {
+    height: 72px;
+}
+.wanmei_games_hot_li01 {
+    width: 60px;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #383838;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    height: 40px;
+}
+.wanmei_games_hot_list {
+    width: 510px;
+    float: left;
+}
+.wanmei_clearfix {
+    /*display: block;*/
+}
+.wanmei_games_hot_list li {
+    width: 70px;
+    float: left;
+    padding-left: 14px;
+    padding-bottom: 10px;
+}
+.wanmei_games_hot_list li a {
+    display: block;
+    height: 38px;
+    width: 70px;
+}
+.wanmei_games_hot_list li img {
+    width: 70px;
+    height: 38px;
+}
+fieldset, img {
+    border: 0;
+}
+.wanmei_game_box{
+	border-top: solid 1px #cfcfcf;
+
+}
+.wanmei_game_khd {
+    width: 356px;
+    border-right: solid 1px #cfcfcf;
+}
+.wanmei_game_item {
+    float: left;
+    height: 231px;
+}
+.wanmei_game_box_head {
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bolder;
+}
+.wanmei_game_box_list02 {
+    border-right: solid 1px #cfcfcf;
+    float: left;
+}
+.wanmei_game_box_list {
+    width: 118px;
+    border-top: solid 1px #cfcfcf;
+}
+.wanmei_game_box_list li a.wanmei_new {
+    background: url(../img/wanmei_top.gif) no-repeat 85px -112px;
+}
+.wanmei_game_box_list li a {
+    display: block;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    color: #383838;
+    text-decoration: none;
+}
+.wanmei_game_box_list li a.wanmei_hot {
+    background: url(../img/wanmei_top.gif) no-repeat 85px -52px;
+}
+.wanmei_game_box_list03 {
+    float: left;
+}
+.wanmei_game_box_list li {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 18px;
+    width: 100px;
+    overflow: hidden;
+    border-bottom: solid 1px #cfcfcf;
+    background: url(../img/wanmei_top.gif) no-repeat 10px -228px;
+}
+.wanmei_game_wy {
+    width: 118px;
+    border-right: solid 1px #cfcfcf;
+}
+.wanmei_game_dj {
+    width: 118px;
+    border-right: solid 1px #cfcfcf;
+}
+.wanmei_games_r {
+    width: 155px;
+    float: right;
+    padding-top: 7px;
+}
+.wanmei_games_r .wmpassport {
+    width: 134px;
+    height: 62px;
+    margin-left: 11px;
+    margin-top: 8px;
+    display: block;
+}
+.wanmei_games_r .wmpassport img {
+    width: 134px;
+    height: 62px;
+    display: block;
+}
+.wanmei_seaver {
+    width: 140px;
+    padding-left: 3px;
+}
+.wanmei_seaver li {
+    width: 62px;
+    height: 62px;
+    padding: 8px 0px 0px 8px;
+    float: left;
+}
+.wanmei_seaver li.wanmei_btn02 a {
+    background-position: -124px top;
+}
+.wanmei_seaver li a {
+    display: block;
+    width: 62px;
+    height: 62px;
+    text-indent: -10000px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(../img/wanmei_fuwu.gif);
+}
+.wanmei_seaver li.wanmei_btn03 a {
+    background-position: left -62px;
+}
+.wanmei_seaver li.wanmei_btn04 a {
+    background-position: -124px -62px;
+}
+.wanmei_seaver li.wanmei_btn06 a {
+    background-position: -124px -124px;
+}
+.wanmei_seaver li.wanmei_btn08 a {
+    background-position: -124px -186px;
+}
+.wanmei_seaver li.wanmei_btn01 a:hover {
+    background-position: -62px top;
+}
+.wanmei_seaver li.wanmei_btn02 a:hover {
+    background-position: -186px top;
+}
+.wanmei_seaver li.wanmei_btn03 a:hover {
+    background-position: -62px -62px;
+}
+.wanmei_seaver li.wanmei_btn04 a:hover {
+    background-position: -186px -62px;
+}
+.wanmei_seaver li.wanmei_btn06 a:hover {
+    background-position: -186px -124px;
+}
+.wanmei_seaver li.wanmei_btn08 a:hover {
+    background-position: -186px -186px;
+}
+.wanmei_game_box_list li a:hover {
+    text-decoration: underline;
+    color: #c20911;
+}
+
+a.wanmei_msg_link01:hover, a.wanmei_msg_link02:hover, a.wanmei_msg_link03:hover {
+    text-decoration: underline;
+}
+.wanmei_ggbox_small img {
+    height: 37px;
+}
+.bg {
+    background: url(../img/bgg.jpg) center top no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+
+/*====================header==========================*/
+.index {
+    position: relative;
+    width: 1920px;
+    height: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: url(../img/index.jpg) no-repeat center bottom;
+}
+h1.wm-public {
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+}
+.wm-public {
+    z-index: 1999;
+}
+.wm_public_zhuxian_logo_lk {
+    position: absolute;
+    z-index: 99999;
+    left: 0px;
+    top: 0px;
+    width: 170px;
+    height: 148px;
+}
+.wm_public_zhuxian_logo_bg {
+    position: absolute;
+    z-index: 99998;
+    left: 0px;
+    top: 0px;
+    width: 170px;
+    height: 148px;
+    background: url(../img/zhuxian2.png);
+    
+}
+.index .cloud1{
+	left: 100px;
+    background: url(../img/cloud2.png) no-repeat 0 0;
+    -webkit-animation: downup 3s linear infinite;
+    animation: name 3s linear infinite;
+}
+.index .cloud {
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    height: 266px;
+}
+@keyframes name{
+	50%{
+		transform: translate3d(0,-20px,0);
+	}
+	100%{
+		transform: translate3d(0,0,0);
+	}
+}
+
+.index .cloud2 {
+    right: 100px;
+    background: url(../img/cloud1.png) no-repeat 0 0;
+    -webkit-animation: downup 2.5s linear infinite;
+    -o-animation: downup 2.5s linear infinite;
+    -ms-animation: downup 2.5s linear infinite;
+    animation: name 2.5s linear infinite;
+}
+.index .hover, .index .nav{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1005;
+}
+.index .nav a {
+    position: absolute;
+    bottom: 0px;
+    height: 698px;
+}
+.index .n1 {
+    left: 0;
+    width: 459px;
+}
+.index .n2 {
+    left: 459px;
+    width: 501px;
+}
+.index .n3 {
+    right: 458px;
+    width: 502px;
+}
+.index .n4 {
+    right: 0;
+    width: 458px;
+}
+.wm_bottom_main {
+    color: #93afd2;
+    font-size: 12px;
+    min-width: 1002px;
+    width: 100%;
+}
+#wm_bottom_beian {
+    color: #93afd2;
+    text-decoration: none;
+    border: 1px solid #303754 !important;
+}
+.wm_bottom_warp a:visited, .wm_bottom_items a:visited {
+    color: #93afd2;
+    text-decoration: none;
+}
+.wm_bottom_items a:link {
+    color: #93afd2;
+    text-decoration: none;
+    /*margin-right: 8px;*/
+}
+.wm_bottom_warp a:link {
+    color: #93afd2;
+    text-decoration: none;
+    font-family: Verdana,\5b8b\4f53,sans-serif;
+}
+.wm_bottom_copyright {
+    color: #93afd2;
+    font-family: Verdana, Geneva, sans-serif,\5b8b\4f53;
+}
+#wm_bottom_ {
+    height: 95px;
+    width: 100%;
+}
+.wm_bottom_bg {
+    background-color: #2a2f44;
+    min-width: 1002px;
+    width: 100%;
+}
+.wm_bottom_warp a:hover, .wm_bottom_items a:hover {
+    color: #a2deed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
